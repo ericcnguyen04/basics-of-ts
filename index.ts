@@ -60,3 +60,7 @@ arr.push(1)
 class Obserbable <T> {
     constructor(public value: T) {}
 }
+
+let x: Obserbable<number>;
+let y: Obserbable<Person>;
+// let z = new Obserbable<23>;
