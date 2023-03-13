@@ -8,11 +8,13 @@ import * as _ from 'lodash';
 
 // lucky = '23'
 
+// === !!  interface  || === //
+
 type Style = 'bold' | 'italic';
 
 let font: Style;
 
-font = 'something'
+// font = 'something'
 
 interface Person {
     first: string;
@@ -27,6 +29,12 @@ const person = {
 
 const person2 = {
     first: "Jeff",
-    last: 'Bezos'
+    last: 'Bezos',
     rich: true
+}
+
+
+// === !! Strong function types || === //
+function pow(x, y) {
+    return Math.pow(x, y);
 }
