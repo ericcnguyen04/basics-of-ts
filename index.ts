@@ -35,6 +35,9 @@ const person2 = {
 
 
 // === !! Strong function types || === //
-function pow(x, y) {
+function pow(x: number, y: number) {
     return Math.pow(x, y);
 }
+
+// is now string
+pow(23, 21)
